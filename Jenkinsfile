@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/ВАШ_ЛОГИН/jenkins-python-demo.git'
+                git branch: 'main', url: 'https://github.com/GulesLevantino/jenkins-python-demo.git'
             }
         }
         stage('Install') {
